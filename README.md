@@ -14,9 +14,9 @@ Esta actividad tiene como objetivo desarrollar un modelo predictivo para nivel d
 ## Estrucura del proyecto
 prediction_model_test/  
 │  
-├── data/  
+├── data/   
 │   ├── ObesityDataSet.csv  
-│   └── resampled_data.csv
+│   └── resampled_data.csv  
 │  
 ├── notebooks/  
 │   └── Obesity_Prediction_Analysis.ipynb  
@@ -24,15 +24,15 @@ prediction_model_test/
 ├── src/  
 │   ├── data_preprocessing.py  
 │   └── model_training.py  
-│   
+│  
 │  
 ├── results/   
-│   ├── cv_performance.txt
-│   ├── label_encoders.pkl 
-│   ├── LogisticRegression_model.pkl
-│   ├── model_performance.txt
-│   ├── scaler.pkl
-│   └── SVM_model.pkl 
+│   ├── cv_performance.txt  
+│   ├── label_encoders.pkl  
+│   ├── LogisticRegression_model.pkl  
+│   ├── model_performance.txt  
+│   ├── scaler.pkl  
+│   └── SVM_model.pkl  
 │  
 └── requirements.txt  
 
