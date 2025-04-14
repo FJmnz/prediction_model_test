@@ -16,29 +16,27 @@ prediction_model_test/
 │  
 ├── data/  
 │   ├── ObesityDataSet.csv  
-│   └── preprocessed_data.csv  
+│   └── resampled_data.csv
 │  
 ├── notebooks/  
 │   └── Obesity_Prediction_Analysis.ipynb  
 │  
 ├── src/  
 │   ├── data_preprocessing.py  
-│   ├── model_training.py  
-│   └── evaluation.py  
+│   └── model_training.py  
+│   
 │  
-├── results/  
-│   ├── model_performance.txt  
-│   ├── feature_importances.csv  
-│   ├── feature_importances.png  
-│   └── obesity_model.pkl  
+├── results/   
+│   ├── cv_performance.txt
+│   ├── label_encoders.pkl 
+│   ├── LogisticRegression_model.pkl
+│   ├── model_performance.txt
+│   ├── scaler.pkl
+│   └── SVM_model.pkl 
 │  
 └── requirements.txt  
 
 
-## Resultados
-**Model Performance:** model_performance.txt  
-**Feature Importances:** feature_importances.csv  
-**Feature Importances Visualization:** feature_importances.png  
 
 # Analisis y Conclusiones en el Desempeño del Modelo
 
