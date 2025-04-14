@@ -3,6 +3,12 @@
 ## Descripción
 Esta actividad tiene como objetivo desarrollar un modelo predictivo para nivel de obesidad basado en hábitos alimenticios y condición física.
 
+## Hipótesis
+1. El consumo de alimentos calóricos tiene una correlación directa con el sobrepeso y la obesidad.
+2. La actividad física regular reduce el riesgo de obesidad.
+3. La ingesta de vegetales y frutas está inversamente relacionada con los niveles de obesidad.
+
+
 ## Estrucura del proyecto
 prediction_model_test/  
 │  
