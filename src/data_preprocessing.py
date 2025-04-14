@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Cargar el archivo CSV
-file_path = 'C:\\Users\\jimen\\Documentos\\codes\\AI\\ObesityDataSet.csv'
+file_path = 'C:\\Users\\jimen\\Documentos\\codes\\AI\\modelo_prediccion_obesidad\\data\\ObesityDataSet.csv'
 data = pd.read_csv(file_path)
 
 # Manejo de valores faltantes
@@ -22,4 +22,9 @@ numeric_vars = ['Age', 'Height', 'Weight']
 data[numeric_vars] = scaler.fit_transform(data[numeric_vars])
 
 # Guardar los datos preprocesados
-data.to_csv('C:\\Users\\jimen\\Documentos\\codes\\AI\\preprocessed_data.csv', index=False)
+data.to_csv('C:\\Users\\jimen\\Documentos\\codes\\AI\\modelo_prediccion_obesidad\\data\\preprocessed_data.csv', index=False)
+
+
+# Imprimir las primeras filas y los nombres de las columnas
+print(data.head())
+print(data.columns)
