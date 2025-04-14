@@ -7,6 +7,8 @@ Esta actividad tiene como objetivo desarrollar un modelo predictivo para nivel d
 1. El consumo de alimentos calóricos tiene una correlación directa con el sobrepeso y la obesidad.
 2. La actividad física regular reduce el riesgo de obesidad.
 3. La ingesta de vegetales y frutas está inversamente relacionada con los niveles de obesidad.
+4. El consumo de agua adecuado ayuda a mantener un peso saludable.
+
 
 
 ## Estrucura del proyecto
